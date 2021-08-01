@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Onboarding Screen</string>
+
+    <string name="first_slide_title">Creative Mathematical and Logical Problems</string>
+    <string name="second_slide_title">Unique Presentation</string>
+    <string name="third_slide_title">Gamification</string>
+    <string name="fourth_slide_title">Track Progress</string>
+
+    <string name="first_slide_des">Providing opportunity to experience the fun of solving numerous creative mathematical and logical problems</string>
+    <string name="second_slide_des">Presenting problems in practical contexts</string>
+    <string name="third_slide_des">Offering gamification with interactivity while solving problem</string>
+    <string name="fourth_slide_des">Track Progress</string>
+
+
+</resources>
