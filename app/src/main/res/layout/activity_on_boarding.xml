@@ -23,7 +23,7 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableEnd="@drawable/skip"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
         android:drawableTint="#000000"
         android:onClick="skip"
         android:text="SKIP"
@@ -67,7 +67,7 @@
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
             android:fontFamily="@font/open_sans"
-
+            android:layout_marginTop="24dp"
             android:onClick="letsGo"
             android:text="Let's Go"
             android:textSize="24sp"

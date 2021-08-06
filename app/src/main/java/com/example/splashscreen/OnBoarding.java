@@ -18,7 +18,6 @@ import com.rd.PageIndicatorView;
 public class OnBoarding extends AppCompatActivity {
 
     ViewPager viewPager;
-    LinearLayout dotsLayout;
 
     SliderAdapter sliderAdapter;
 
@@ -54,26 +53,6 @@ public class OnBoarding extends AppCompatActivity {
         startActivity(new Intent(this, Login.class));
         finish();
     }
-
-
-//    private void addDots(int position) {
-//        dots = new TextView[numberofPages];
-//        dotsLayout.removeAllViews();
-//
-//        for (int i = 0; i < dots.length; i++) {
-//            dots[i] = new TextView(this);
-//            dots[i].setText(Html.fromHtml("&#8226;"));
-//            dots[i].setTextSize(35);
-//
-//            dotsLayout.addView(dots[i]);
-//
-//        }
-//
-//        if (dots.length > 0) {
-//            dots[position].setTextColor(getResources().getColor(R.color.colorPrimary));
-//
-//        }
-//    }
 
     ViewPager.OnPageChangeListener changeListener = new ViewPager.OnPageChangeListener() {
         @Override
