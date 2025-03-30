@@ -1,4 +1,4 @@
-# SplashScreen-Onboarding-Android
+# Splas hScreen Onboarding Android Starter
 
 This can be a good starting point for designing a modern looking splash screen for any project
 `Java` and `XML` are used in the project
